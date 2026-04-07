@@ -15,7 +15,7 @@ We build regenerative infrastructure at the intersection of:
 
 ## Core repositories
 
-### `prometheus-pilot-handoff-pack`
+### `prometheus-pilot-handoff-pack` (https://github.com/Permaculture-DAO/prometheus-pilot-handoff-pack)  `
 Canonical developer handoff repository for the Prometheus Rigenera pilot.
 
 ### `prometheus-mock-backend`
@@ -29,8 +29,6 @@ Evaluation and gating stack for Prometheus pilot outputs: scoring, reporting, an
 
 ### `prometheus-happ`
 Canonical Holochain-native implementation repository for the Prometheus pilot backend.  
-(coming into the organization structure as the technical core)
-
 ---
 
 ## Project philosophy
@@ -48,7 +46,5 @@ This means:
 ---
 
 ## Founder
-
+Canonical project development lives under the `Permaculture-DAO` organization.  
 Prometheus and the h•eart•h intelligence initiative were founded by [`Uwohali`](https://github.com/Uwohali).
-
-Canonical development lives under the `Permaculture-DAO` organization.
