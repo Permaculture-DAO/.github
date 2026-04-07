@@ -14,21 +14,15 @@ We build regenerative infrastructure at the intersection of:
 ---
 
 ## Core repositories
+[`prometheus-pilot-handoff-pack`](https://github.com/Permaculture-DAO/prometheus-pilot-handoff-pack)
 
-### `prometheus-pilot-handoff-pack` (https://github.com/Permaculture-DAO/prometheus-pilot-handoff-pack)  `
-Canonical developer handoff repository for the Prometheus Rigenera pilot.
+[`prometheus-mock-backend`](https://github.com/Permaculture-DAO/prometheus-mock-backend)
 
-### `prometheus-mock-backend`
-Executable behavioral specification for the Prometheus Rigenera pilot backend.
+[`prometheus-ops-docs`](https://github.com/Permaculture-DAO/prometheus-ops-docs)
 
-### `prometheus-ops-docs`
-Operational SOPs, runbooks, troubleshooting, and execution discipline for the pilot stack.
+[`prometheus-evaluation-stack`](https://github.com/Permaculture-DAO/prometheus-evaluation-stack)
 
-### `prometheus-evaluation-stack`
-Evaluation and gating stack for Prometheus pilot outputs: scoring, reporting, and GO / NO_GO decisioning.
-
-### `prometheus-happ`
-Canonical Holochain-native implementation repository for the Prometheus pilot backend.  
+`prometheus-happ`
 ---
 
 ## Project philosophy
