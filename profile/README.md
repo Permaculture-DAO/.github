@@ -38,6 +38,21 @@ Canonical Holochain-native implementation repository for the Prometheus pilot ba
 
 ---
 
+## Canonical texts
+
+For a compressed constitutional overview of the Prometheus ecosystem, see the **Prometheus Canon - 12 Pages**.
+
+This text complements the canonical white paper and should be read as a high-level constitutional companion to the repository-bounded implementation stack.
+
+Core rule:
+
+- the Canon defines enduring architectural meaning at high level
+- repository README files define repository-specific scope
+- implementation behavior remains bounded by pilot-first discipline
+- runtime code does not silently redefine constitutional intent
+
+---
+
 ## Project philosophy
 
 Prometheus is developed with a pilot-first discipline.
