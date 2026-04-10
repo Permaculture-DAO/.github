@@ -65,6 +65,20 @@ This means:
 - operational clarity before scale
 - implementation fidelity before architecture drift
 
+--- 
+
+## Canonical releases
+
+The constitutional and cryptographic freeze states of the Prometheus document system are maintained in:
+
+- [`prometheus-canonicals`](https://github.com/Permaculture-DAO/prometheus-canonicals)
+
+Current canonical freeze:
+
+- `releases/2026-04-09/`
+
+This repository should be treated as the authoritative source for canonical release states of the Prometheus Sovereign Syntropy document package.
+
 ---
 
 ## Founder
