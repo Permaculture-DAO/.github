@@ -31,10 +31,30 @@ Operational SOPs, runbooks, troubleshooting, and execution discipline for the pi
 
 Evaluation and gating stack for Prometheus pilot outputs: scoring, reporting, and GO / NO_GO decisioning.
 
-`prometheus-happ`
+[`prometheus-happ`](https://github.com/Permaculture-DAO/prometheus-happ)
 
-Canonical Holochain-native implementation repository for the Prometheus pilot backend.  
-(technical core being moved into the organization structure)
+Canonical Holochain-native implementation repository for the Prometheus pilot backend.
+
+This repository contains the bounded pilot runtime implementation layer:
+- DNA
+- integrity and coordinator zomes
+- pilot backend logic
+- Holochain-native runtime behavior
+
+[`prometheus-bridge`](https://github.com/Permaculture-DAO/prometheus-bridge)
+
+Bridge layer for the Prometheus pilot runtime.
+
+This repository exposes the application-facing HTTP/API layer in front of the Holochain websocket path and currently supports pilot-facing runtime endpoints such as:
+- `/health`
+- `/list_messages`
+- `/set_message`
+
+[`prometheus-console`](https://github.com/Permaculture-DAO/prometheus-console)
+
+Frontend console repository for the Prometheus pilot.
+
+This repository contains the public-facing application UI intended to connect to the Prometheus bridge and runtime stack.
 
 ---
 
@@ -65,7 +85,7 @@ This means:
 - operational clarity before scale
 - implementation fidelity before architecture drift
 
---- 
+---
 
 ## Canonical releases
 
@@ -81,6 +101,20 @@ This repository should be treated as the authoritative source for canonical rele
 
 ---
 
+## Public entrypoints
+
+Institutional public site:
+
+- [`heart-intelligence.earth`](https://heart-intelligence.earth/)
+
+Planned application and bridge entrypoints for the Prometheus pilot stack:
+
+- `app.heart-intelligence.earth`
+- `api.heart-intelligence.earth`
+
+---
+
 ## Founder
+
 Canonical project development lives under the `Permaculture-DAO` organization.  
 Prometheus and the h•eart•h intelligence initiative were founded by [`Uwohali`](https://github.com/Uwohali).
