@@ -2,101 +2,205 @@
 
 Permaculture-DAO is the canonical development home of the Prometheus ecosystem.
 
-Prometheus should be understood, at system level, as a **capital-ready regenerative transformation infrastructure**.
+Prometheus should be understood, at system level, as a capital-ready regenerative transformation infrastructure.
 
-Within that broader identity, the organization builds and maintains the bounded pilot stack at the intersection of:
+The organization maintains the active Prometheus v1.1 Genesis Institutional Canonical Line and the bounded pilot implementation stack.
 
-- ecological intelligence
-- permaculture and syntropic design
-- distributed coordination
-- Holochain-native backend systems
-- ValueFlows / hREA-compatible economic modeling
-- pilot-first implementation discipline
+## Current canonical line
+
+Current canonical line:
+
+**Prometheus v1.1 — Genesis Institutional Canonical Line**
+
+Primary canonical repository:
+
+**Permaculture-DAO/prometheus-canon**
+
+Prometheus v1.1 is not treated as a patch, continuation, or automatic upgrade of any previous Prometheus repository, release, hash set, signature set, runtime artifact, or development archive.
+
+Pre-v1.1 materials are historical development artifacts unless explicitly reintroduced through the v1.1 signed canonical release process.
+
+## Source-of-truth hierarchy
+
+Prometheus is maintained through a strict separation of institutional meaning, canonical documentation, repository scope, implementation behavior, and runtime execution.
+
+The hierarchy is:
+
+1. White Paper — defines the current institutional architecture of Prometheus.
+2. prometheus-canon — preserves the active canonical Genesis line, review materials, verification procedures, checksum discipline, signing workflow, and governance boundary.
+3. Repository README files — define repository-specific scope and operational boundaries.
+4. Runtime code — implements bounded pilot behavior.
+5. Deployment and operations documentation — governs execution, troubleshooting, and runtime discipline.
+
+Runtime code, repository documentation, dashboards, API responses, token interfaces, or operational scripts must not silently redefine the constitutional intent of the White Paper or prometheus-canon.
 
 ## Core repositories
 
-### prometheus-pilot-handoff-pack
-Canonical developer handoff repository for the Prometheus Rigenera pilot.
+### prometheus-canon
 
-### prometheus-mock-backend
-Executable behavioral specification for the Prometheus Rigenera pilot backend.
+Primary canonical source repository for the Prometheus v1.1 Genesis Institutional Canonical Line.
 
-### prometheus-ops-docs
-Operational SOPs, runbooks, troubleshooting, and execution discipline for the pilot stack.
+This repository contains the canonical White Paper, canonical Markdown derivatives, verification documentation, staging audit, governance boundary, reproducible release procedures, checksum workflow, and signing discipline.
 
-### prometheus-evaluation-stack
-Evaluation and gating stack for Prometheus pilot outputs: scoring, reporting, and GO / NO_GO decisioning.
+It is the active canonical source of truth for the v1.1 Genesis line.
 
 ### prometheus-happ
+
 Canonical Holochain-native implementation repository for the Prometheus pilot backend.
 
 This repository contains the bounded pilot runtime implementation layer:
-- DNA
-- integrity and coordinator zomes
-- pilot backend logic
-- Holochain-native runtime behavior
+
+- DNA;
+- integrity zomes;
+- coordinator zomes;
+- pilot backend logic;
+- Holochain-native runtime behavior;
+- source-chain-based records;
+- validation-bound data structures.
+
+The hApp implements pilot behavior. It does not redefine Prometheus constitutional meaning.
 
 ### prometheus-bridge
+
 Bridge layer for the Prometheus pilot runtime.
 
-This repository exposes the application-facing HTTP/API layer in front of the Holochain websocket path and currently supports pilot-facing runtime endpoints such as:
-- `/health`
-- `/list_messages`
-- `/set_message`
+This repository exposes the application-facing HTTP/API layer in front of the Holochain websocket path and may support pilot-facing runtime endpoints such as:
+
+- /health
+- /list_messages
+- /set_message
+
+The bridge is an interface layer. It does not create PRU value, token rights, investor rights, land rights, or governance authority.
 
 ### prometheus-console
+
 Frontend console repository for the Prometheus pilot.
 
 This repository contains the public-facing application UI intended to connect to the Prometheus bridge and runtime stack.
 
-### prometheus-canonicals
-Canonical constitutional and cryptographic release states of the Prometheus document system.
+The console makes pilot data legible. It does not independently validate ecological claims or authorize capital-facing representations.
 
-## Canonical texts
+### prometheus-ops-docs
 
-For a compressed constitutional overview of the Prometheus ecosystem, see the **Prometheus Canon — 12 Pages**.
+Operational SOPs, runbooks, troubleshooting, local runtime instructions, deployment discipline, incident handling, and operator procedures for the pilot stack.
 
-This text complements the canonical white paper and should be read as a high-level constitutional companion to the repository-bounded implementation stack.
+### prometheus-evaluation-stack
 
-## Core rule
+Evaluation and gating stack for Prometheus pilot outputs.
 
-- the Canon defines enduring architectural meaning at high level
-- repository README files define repository-specific scope
-- implementation behavior remains bounded by pilot-first discipline
-- runtime code does not silently redefine constitutional intent
+This repository supports scoring, reporting, validation logic, QA checks, and GO / NO_GO / MANUAL_REVIEW decisioning.
+
+Its function is not to create financial value automatically. Its function is to support disciplined evaluation before claims, deployment, reporting, or capital-facing interpretation advance.
+
+### prometheus-pilot-handoff-pack
+
+Canonical developer handoff repository for the Prometheus Rigenera pilot.
+
+This repository contains implementation-facing context, pilot boundaries, operating assumptions, handoff notes, data-room readiness, and deployment sequence.
+
+### prometheus-mock-backend
+
+Executable behavioral specification for the Prometheus pilot backend.
+
+This repository preserves expected backend behavior before or alongside full Holochain-native implementation.
+
+## Canonical ontology
+
+Prometheus v1.1 defines Prometheus as verified regenerative infrastructure, not a public offering and not a token-first system.
+
+The operative ontology is:
+
+- OHE generates regenerative performance;
+- MRV and provenance make evidence reviewable;
+- PRU provides the value-analysis and maturity-classification interface;
+- RAP aggregates verified units into portfolio-grade regenerative infrastructure;
+- TRBK supports governance, coordination, access, or participation within legal boundaries;
+- HoloFuel supports operational transaction and infrastructure capacity;
+- any future financial or digital instrument requires a compliant legal wrapper, jurisdiction-specific review, disclosure, and investor-protection discipline.
+
+## Verification-first discipline
+
+Prometheus treats verification as infrastructure.
+
+The operational sequence is:
+
+claim → observation → evidence → provenance → integrity → verified indicator → admissibility → value
+
+No repository in this organization should bypass that sequence.
+
+A claim does not become value merely because it appears in a README, dashboard, token interface, API response, investor deck, runtime output, or release note.
+
+Value becomes admissible only through evidence, methodology, confidence, governance review, legal boundaries, and appropriate structuring.
+
+## Runtime boundary
+
+The bounded pilot stack may implement:
+
+- local runtime records;
+- Holochain-native message behavior;
+- bridge endpoints;
+- frontend console views;
+- mock backend behavior;
+- evaluation gates;
+- operational runbooks;
+- pilot handoff materials.
+
+The bounded pilot stack must not independently implement or imply:
+
+- investor rights;
+- fractional ownership;
+- land rights;
+- securities;
+- automatic PRU issuance;
+- automatic ecological credits;
+- automatic tokenized asset claims;
+- automatic governance authority;
+- medical claims;
+- public financial representations.
+
+Those layers require separate legal, methodological, governance, and institutional review.
 
 ## Project philosophy
 
 Prometheus is developed with a pilot-first discipline.
 
 This means:
-- explicit scope before expansion
-- behavior before abstraction
-- validation before execution
-- operational clarity before scale
-- implementation fidelity before architecture drift
 
-## Canonical releases
+- explicit scope before expansion;
+- behavior before abstraction;
+- validation before execution;
+- evidence before claims;
+- operational clarity before scale;
+- implementation fidelity before architecture drift;
+- MRV before PRU value analysis;
+- legal structure before capital-facing instruments;
+- governance review before irreversible commitments.
 
-The constitutional and cryptographic freeze states of the Prometheus document system are maintained in:
+Prometheus does not scale by inflating narrative.
 
-- `prometheus-canonicals`
+Prometheus scales by preserving coherence under real conditions.
 
-Current canonical freeze:
-- `releases/2026-04-16/`
+## Legacy boundary
 
-This repository should be treated as the authoritative source for canonical release states of the Prometheus Sovereign Syntropy document package.
+Pre-v1.1 repositories, releases, drafts, hashes, signatures, generated packs, runtime artifacts, and development materials are historical development artifacts.
+
+They are not part of the active canonical release path unless explicitly reintroduced through the v1.1 signed canonical release process.
+
+No legacy artifact may silently become canonical by being copied into a Genesis repository.
 
 ## Public entrypoints
 
 Institutional public site:
-- `heart-intelligence.earth`
+
+- heart-intelligence.earth
 
 Planned application and bridge entrypoints for the Prometheus pilot stack:
-- `app.heart-intelligence.earth`
-- `api.heart-intelligence.earth`
+
+- app.heart-intelligence.earth
+- api.heart-intelligence.earth
 
 ## Founder
 
 Canonical project development lives under the Permaculture-DAO organization.
+
 Prometheus and the h•eart•h intelligence initiative were founded by Uwohali.
