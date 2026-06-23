@@ -2,7 +2,8 @@
 
 Permaculture-DAO is the canonical development home of the Prometheus ecosystem.
 
-Prometheus should be understood, at system level, as a capital-ready regenerative transformation infrastructure.
+Prometheus should be understood, at system level, as a candidate regenerative
+transformation architecture whose capital-facing use remains gate-dependent.
 
 The organization maintains the active Prometheus v1.1 Genesis Institutional Canonical Line and the bounded pilot implementation stack.
 
@@ -14,7 +15,16 @@ Current canonical line:
 
 Primary canonical repository:
 
-**Permaculture-DAO/prometheus-canon**
+**[Permaculture-DAO/prometheus-canon](https://github.com/Permaculture-DAO/prometheus-canon)**
+
+Public signed-release registry:
+
+**[Permaculture-DAO/prometheus-canonical-releases](https://github.com/Permaculture-DAO/prometheus-canonical-releases)**
+
+Current public releases:
+
+- canonical: `v1.1.2-genesis`;
+- bounded synthetic runtime proof: `v1.1.3-runtime-proof`.
 
 Prometheus v1.1 is not treated as a patch, continuation, or automatic upgrade of any previous Prometheus repository, release, hash set, signature set, runtime artifact, or development archive.
 
@@ -36,6 +46,18 @@ Runtime code, repository documentation, dashboards, API responses, token interfa
 
 ## Core repositories
 
+The public repositories are the canon, the signed-release registry, and the
+bounded Holochain runtime. Other Genesis repositories remain private pilot
+workspaces until their own publication, licensing, privacy, and release gates are
+cleared.
+
+### prometheus-canonical-releases
+
+Minimal public cryptographic registry for signed canonical release sets,
+manifests, checksums, public keys, and verification instructions. Historical
+development freezes remain in a separate private archive and do not silently
+become current canon.
+
 ### prometheus-canon
 
 Primary canonical source repository for the Prometheus v1.1 Genesis Institutional Canonical Line.
@@ -46,7 +68,8 @@ It is the active canonical source of truth for the v1.1 Genesis line.
 
 ### prometheus-happ
 
-Canonical Holochain-native implementation repository for the Prometheus pilot backend.
+Public Holochain-native implementation repository for the bounded Prometheus
+pilot backend and signed synthetic runtime proof.
 
 This repository contains the bounded pilot runtime implementation layer:
 
@@ -193,6 +216,12 @@ No legacy artifact may silently become canonical by being copied into a Genesis 
 Institutional public site:
 
 - heart-intelligence.earth
+
+Public source and verification:
+
+- https://github.com/Permaculture-DAO/prometheus-canon
+- https://github.com/Permaculture-DAO/prometheus-canonical-releases
+- https://github.com/Permaculture-DAO/prometheus-happ
 
 Planned application and bridge entrypoints for the Prometheus pilot stack:
 
