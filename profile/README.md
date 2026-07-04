@@ -46,10 +46,10 @@ Runtime code, repository documentation, dashboards, API responses, token interfa
 
 ## Core repositories
 
-The public repositories are the canon, the signed-release registry, and the
-bounded Holochain runtime. Other Genesis repositories remain private pilot
-workspaces until their own publication, licensing, privacy, and release gates are
-cleared.
+The public repositories are the canon, the signed-release registry, the
+bounded Holochain runtime, and the development runtime candidate. Other Genesis
+repositories remain private pilot workspaces until their own publication,
+licensing, privacy, and release gates are cleared.
 
 ### prometheus-canonical-releases
 
@@ -65,6 +65,14 @@ Primary canonical source repository for the Prometheus v1.1 Genesis Institutiona
 This repository contains the canonical White Paper, canonical Markdown derivatives, verification documentation, staging audit, governance boundary, reproducible release procedures, checksum workflow, and signing discipline.
 
 It is the active canonical source of truth for the v1.1 Genesis line.
+
+### prometheus-runtime
+
+Public development runtime candidate for the bounded Prometheus pilot: gated
+data ingestion, normalization, and evidence batch packaging, staged behind an
+`S0`-`S6` freeze/rotate/publication discipline. Development status only;
+production, legal, and market admission remain gated. Runtime execution does
+not redefine Prometheus constitutional meaning.
 
 ### prometheus-happ
 
@@ -222,6 +230,7 @@ Public source and verification:
 - https://github.com/Permaculture-DAO/prometheus-canon
 - https://github.com/Permaculture-DAO/prometheus-canonical-releases
 - https://github.com/Permaculture-DAO/prometheus-happ
+- https://github.com/Permaculture-DAO/prometheus-runtime
 
 Planned application and bridge entrypoints for the Prometheus pilot stack:
 
