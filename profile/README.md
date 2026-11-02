@@ -93,15 +93,15 @@ The hApp implements pilot behavior. It does not redefine Prometheus constitution
 
 ### prometheus-bridge
 
-Bridge layer for the Prometheus pilot runtime.
+Bounded, read-only HTTP/API bridge for the Prometheus pilot runtime.
 
-This repository exposes the application-facing HTTP/API layer in front of the Holochain websocket path and may support pilot-facing runtime endpoints such as:
+The repository documentation describes an allow-listed interface for health,
+status, claims and candidate methodology status. Write requests and unknown routes
+are refused. This description is not an attestation that every documented route
+is currently deployed or publicly reachable.
 
-- /health
-- /list_messages
-- /set_message
-
-The bridge is an interface layer. It does not create PRU value, token rights, investor rights, land rights, or governance authority.
+The bridge displays information; it does not create PRU value, token rights,
+investor rights, land rights, underwriting decisions or governance authority.
 
 ### prometheus-console
 
@@ -117,11 +117,13 @@ Operational SOPs, runbooks, troubleshooting, local runtime instructions, deploym
 
 ### prometheus-evaluation-stack
 
-Evaluation and gating stack for Prometheus pilot outputs.
+Deferred boundary repository under decision F8, rather than a separate operational
+evaluation service. Its README locates the working evaluation/gating layer in
+`prometheus-happ` and records a retire-or-populate decision trigger.
 
-This repository supports scoring, reporting, validation logic, QA checks, and GO / NO_GO / MANUAL_REVIEW decisioning.
-
-Its function is not to create financial value automatically. Its function is to support disciplined evaluation before claims, deployment, reporting, or capital-facing interpretation advance.
+Do not infer an independently deployed scoring or certification service from this
+repository's name. Evaluation results do not automatically create financial value
+or authorize scientific or capital-facing claims.
 
 ### prometheus-pilot-handoff-pack
 
@@ -220,6 +222,10 @@ They are not part of the active canonical release path unless explicitly reintro
 No legacy artifact may silently become canonical by being copied into a Genesis repository.
 
 ## Public entrypoints
+
+Project overview in Italian and English:
+
+- [PROMETHEUS overview](https://github.com/Permaculture-DAO/.github/blob/main/docs/prometheus/overview-it-en.md)
 
 Institutional public site:
 
